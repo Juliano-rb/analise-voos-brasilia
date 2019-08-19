@@ -27,7 +27,7 @@ Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
 
 
 <h2>Quantidade de voos por mês</h2>
-```R
+<h3>Codigo em R</h3>
 --Legendas para as barras
 
 meses = c("Jan","fev","mar","abr","maio","jun","julh","ago","set","out","nov","dez")
@@ -46,7 +46,7 @@ par(lty = 0)
 --Adiciona a legenda nas barras com os valores
 
 text(mp, qtdvoos, labels = qtdvoos, pos = 3, col='azure4')
-```
+
 <img src='voosxmeses.png'/>
 
 
