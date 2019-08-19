@@ -1,6 +1,10 @@
 # Análise de Voos Brasileiros (Foco em Brasilia)
 Análise de voos da cidade de Brasília. Projeto desenvolvido na disciplina de Business Intelligence em conjunto com Guilherme da Fonseca .
 
+# Video-Apresentação
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ukBuvgO5pXk/0.jpg)](https://www.youtube.com/watch?v=ukBuvgO5pXk)
+
 <h1>Visão Geral</h1>
 Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
 <h2>Voos<h2>
@@ -10,7 +14,6 @@ Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
     <li>AZU - 4135</li>
     <li>TAM - 3730</li>
 </ul>
-
 
 <h2>Tipo de Linha<h2>
 <ul>
@@ -28,22 +31,24 @@ Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
 
 <h2>Quantidade de voos por mês</h2>
 <h3>Codigo em R</h3>
---Legendas para as barras
+#Legendas para as barras
 
 meses = c("Jan","fev","mar","abr","maio","jun","julh","ago","set","out","nov","dez")
---Dados de voos de cada mês, em ordem
+
+#Dados de voos de cada mês, em ordem
 
 qtdvoos= c(1099,1413, 1511, 1635, 756, 371, 194, 251, 245, 306, 234, 242)
 
---remove a borda das barras
+#remove a borda das barras
 
 par(lty = 0)
 
---Cria as barras passando os dados e configurando o básico
+#Cria as barras passando os dados e configurando o básico
 
  mp <- barplot(qtdvoos, names.arg = meses, xlab = "Meses", 
     ylab = "Quantidade de voos", ylim = c(0,2000), col="deepskyblue3", space =0.03)
---Adiciona a legenda nas barras com os valores
+    
+#Adiciona a legenda nas barras com os valores
 
 text(mp, qtdvoos, labels = qtdvoos, pos = 3, col='azure4')
 
