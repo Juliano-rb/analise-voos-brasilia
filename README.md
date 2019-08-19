@@ -27,19 +27,24 @@ Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
 
 
 <h2>Quantidade de voos por mês</h2>
-```
+```R
 --Legendas para as barras
+
 meses = c("Jan","fev","mar","abr","maio","jun","julh","ago","set","out","nov","dez")
 --Dados de voos de cada mês, em ordem
+
 qtdvoos= c(1099,1413, 1511, 1635, 756, 371, 194, 251, 245, 306, 234, 242)
 
 --remove a borda das barras
+
 par(lty = 0)
 
 --Cria as barras passando os dados e configurando o básico
+
  mp <- barplot(qtdvoos, names.arg = meses, xlab = "Meses", 
     ylab = "Quantidade de voos", ylim = c(0,2000), col="deepskyblue3", space =0.03)
 --Adiciona a legenda nas barras com os valores
+
 text(mp, qtdvoos, labels = qtdvoos, pos = 3, col='azure4')
 ```
 <img src='voosxmeses.png'/>
