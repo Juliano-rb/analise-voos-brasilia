@@ -1,9 +1,5 @@
 # Análise de Voos Brasileiros (Foco em Brasilia)
-Análise de voos da cidade de Brasília. Projeto desenvolvido na disciplina de Business Intelligence em conjunto com Guilherme da Fonseca .
-
-# Video-Apresentação
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ukBuvgO5pXk/0.jpg)](https://www.youtube.com/watch?v=ukBuvgO5pXk)
+Análise de voos da cidade de Brasília. Projeto desenvolvido na disciplina de Business Intelligence em conjunto com Guilherme da Fonseca.
 
 <h1>Visão Geral</h1>
 Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
