@@ -26,7 +26,7 @@ Dataset: https://www.kaggle.com/ramirobentes/flights-in-brazil
 
 
 <h2>Quantidade de voos por mês</h2>
-<h3>Codigo em R</h3>
+<h3>Codigo em R para plotagem simples.</h3>
 #Legendas para as barras
 
 meses = c("Jan","fev","mar","abr","maio","jun","julh","ago","set","out","nov","dez")
