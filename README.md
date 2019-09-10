@@ -2,7 +2,7 @@
 Análise de voos da cidade de Brasília. Projeto desenvolvido na disciplina de Business Intelligence em conjunto com Guilherme da Fonseca.
 
 <h1>Visão Geral</h1>
-Dataset: https://1drv.ms/u/s!ArXkkJr8KYAUhqYRSJqwNywBLqE3aA?e=kEhAB0
+Dataset: https://www.kaggle.com/ramirobentes/flights-in-brazil
 <h2>Voos<h2>
 <ul>
     <li>AL - 214</li>
