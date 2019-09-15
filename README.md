@@ -1,6 +1,7 @@
 # Análise de Voos Brasileiros (Foco em Brasilia)
 Análise de voos da cidade de Brasília. Projeto desenvolvido na disciplina de Business Intelligence em conjunto com Guilherme da Fonseca.
 
+Obs: A maior partes das informações foram adiquiridas utilizando a plataforma de Data Sciente [Rapid Miner](https://rapidminer.com) 
 <h1>Visão Geral</h1>
 Dataset: https://www.kaggle.com/ramirobentes/flights-in-brazil
 <h2>Voos<h2>
